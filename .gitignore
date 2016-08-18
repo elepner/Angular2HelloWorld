@@ -85,4 +85,3 @@ wwwroot/dist/*
 !wwwroot/dist/vendor-manifest.json
 !wwwroot/dist/vendor.js
 !wwwroot/dist/vendor.css
-/.vscode
