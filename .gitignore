@@ -79,6 +79,10 @@ _[Ss]cripts
 ##########
 /node_modules
 ###Misc#####
-/wwwroot
-/typings
+.vs/
+project.lock.json
+wwwroot/dist/*
+!wwwroot/dist/vendor-manifest.json
+!wwwroot/dist/vendor.js
+!wwwroot/dist/vendor.css
 /.vscode
