@@ -43,7 +43,8 @@
             "request": "launch",
             "url": " http://localhost:5000/",
             "webRoot": "${workspaceRoot}",
-            "sourceMaps": true
+            "sourceMaps": true,
+            "preLaunchTask": "build"
         }
     ]
 }

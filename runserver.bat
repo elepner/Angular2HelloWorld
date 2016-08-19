@@ -1,0 +1,2 @@
+SET ASPNETCORE_ENVIRONMENT=Development
+dotnet bin\Debug\netcoreapp1.0\Angular2HelloWorld.dll
