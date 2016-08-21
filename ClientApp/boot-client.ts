@@ -3,7 +3,8 @@ require('zone.js');
 import 'bootstrap';
 import 'reflect-metadata';
 import './styles/site.css';
-
+import 'ng2-material/ng2-material.css';
+import 'node_modules/ng2-material/font/font.css'
 import { bootstrap } from '@angular/platform-browser-dynamic';
 import { FormBuilder } from '@angular/common';
 import { provideRouter } from '@angular/router';

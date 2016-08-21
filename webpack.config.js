@@ -9,13 +9,13 @@ var isDevelopment = process.env.ASPNETCORE_ENVIRONMENT === 'Development';
 
 module.exports = merge({
     resolve: {
-        extensions: [ '', '.js', '.ts' ]
+        extensions: [ '', '.js', '.ts' ],
     },
     module: {
         loaders: [
             { test: /\.ts$/, include: /ClientApp/, loader: 'ts-loader?silent=true' },
             { test: /\.html$/, loader: 'raw-loader' },
-            { test: /\.css/, loader: extractCSS.extract(['css']) }
+            { test: /\.css/, loader: extractCSS.extract('style-loader', 'css-loader!autoprefixer-loader') }
         ]
     },
     entry: {
